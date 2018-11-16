@@ -1,0 +1,9 @@
+<h1>Edit User</h1>
+
+<%= form_tag("/users/#{@user.id}", method: "put", multipart: true) do %>
+<p>Enter your name</p>
+ <input name="name" value="<%= @user.name %>"></br>
+ <p>Upload Picture</p>
+ <input name="user_image" type="file"></br>
+ <input type="submit">
+<% end %>

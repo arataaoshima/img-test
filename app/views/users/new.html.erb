@@ -1,0 +1,9 @@
+<h1>Create New User</h1>
+
+<%= form_tag("/users", method: "post", multipart: true) do %>
+<p>Enter your name</p>
+ <input name="name"></br>
+ <p>Upload Picture</p>
+ <input name="user_image" type="file"></br>
+ <input type="submit">
+<% end %>

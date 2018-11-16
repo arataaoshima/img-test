@@ -1,0 +1,8 @@
+<h1>User Index</h1>
+
+<% @users.each do |user| %>
+<%= user.name %>
+<%= user.user_image %>
+<%= image_tag(user.user_image, :size => "40x40") %>
+<%= link_to("Edit","/users/#{user.id}/edit", method: :get) %>
+<% end %>
