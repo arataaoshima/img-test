@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'KGSecondChancesSketch';  //font-name
+  src: font-url("/assets/KGSecondChancesSketch.eot");
+  src: font-url("/assets/KGSecondChancesSketch.woff") format("woff"), font-url("/assets/KGSecondChancesSketch.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'honoka';  //font-name
+  src: font-url("/assets/honokamarugo-forweb.eot");
+  src: font-url("/assets/honokamarugo-forweb.woff") format("woff"), font-url("/assets/honokamarugo-forweb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caveat';  //font-name
+  //src: font-url("/assets/caveat.eot");
+  //src: font-url("/assets/caveat.woff") format("woff"), font-url("/assets/caveat.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yomogi';  //font-name
+  src: font-url("/assets/yomogifont.eot");
+  src: font-url("/assets/yomogifont.woff") format("woff"), font-url("/assets/yomogifont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+    font-family: 'KGSecondChancesSketch';
+    //font-family: 'honoka';
+    //font-family: 'yomogi';
+    //font-family: 'caveat'; 
+}
