@@ -25,7 +25,12 @@ class UsersController < ApplicationController
      @user.user_image = :"#{@user.id}.jpg"
      if @user.save
        image = params[:user_image]
-       File.binwrite("app/assets/images/#{@user.id}.jpg", image.read)
+       
+       #これでセット
+       #File.binwrite("app/assets/images/#{@user.id}.jpg", image.read)
+       # <%= image_tag(user.user_image, :size => "40x40") %>
+      
+       File.binwrite("public/images/#{@user.id}.jpg", image.read)
        redirect_to("/users")
      else
        redirect_to("/users")

@@ -3,6 +3,8 @@
 <% @users.each do |user| %>
 <%= user.name %>
 <%= user.user_image %>
-<%= image_tag(user.user_image, :size => "40x40") %>
+
+<img src="<%= "/images/#{user.user_image}" %>" class="user_images">
 <%= link_to("Edit","/users/#{user.id}/edit", method: :get) %>
+
 <% end %>
