@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'KGSecondChancesSketch';
+  src: url(/assets/KGSecondChancesSketch.eot);
+  src: url(/assets/KGSecondChancesSketch.woff) format("woff"), url(/assets/KGSecondChancesSketch.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+@font-face {
+  font-family: 'honoka';  //font-name
+  src: font-url("/assets/honokamarugo-forweb.eot");
+  src: font-url("/assets/honokamarugo-forweb.woff") format("woff"), font-url("/assets/honokamarugo-forweb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'caveat';  //font-name
+  //src: font-url("/assets/caveat.eot");
+  //src: font-url("/assets/caveat.woff") format("woff"), font-url("/assets/caveat.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'yomogi';  //font-name
+  src: font-url("/assets/yomogifont.eot");
+  src: font-url("/assets/yomogifont.woff") format("woff"), font-url("/assets/yomogifont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+/* line 33, /home/ubuntu/photo/photo/app/assets/stylesheets/custom.css.scss */
+body {
+  font-family: 'KGSecondChancesSketch';
+}
+/* line 5, /home/ubuntu/photo/photo/app/assets/stylesheets/welcome.scss */
+.user_images {
+  width: 40px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
